@@ -71,7 +71,7 @@ const Sidebar = () => {
           <Box>
             <Item
               title="Dashboard"
-              to="/"
+              to="/dashboard"
               icon={<SpaceDashboardOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -86,8 +86,8 @@ const Sidebar = () => {
             />
 
             <Item
-              title="Login"
-              to="/login"
+              title="Announcements"
+              to="/announcements"
               icon={<CampaignOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
